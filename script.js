@@ -13,7 +13,7 @@ function selectOption(option) {
         // Change text on the "No" button to "You sure?"
         document.getElementById('botaonao').innerText = 'Certeza?'; 
         // Increase font size of "Yes" button
-        var yesButton = document.getElementById('yes-button');
+        var yesButton = document.getElementById('botaosim');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
         yesButton.style.fontSize = newSize + 'px';
